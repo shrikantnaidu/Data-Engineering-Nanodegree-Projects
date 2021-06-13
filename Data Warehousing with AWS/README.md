@@ -59,4 +59,27 @@ Files used on the project:
 
 ### Steps to follow
 
-1.
+1. Fill all the information needed in the dwh.cfg file to setup the cluster cfg and other things that are required.
+2. Complete all the queries sql_queries.py
+3. Create the cluster using the create_cluster.ipynb and only run the cluster deletion code cell when all the tasks are complete.
+4. Once the cluster is created, Run the following script in console to create the tables
+```
+python create_tables.py
+```
+5. Once the script execution completes, Run the following script to do the etl process(may take some time to complete execution,monitor processing through aws console)
+```
+python etl.py
+```
+6. Once the script execution completes. Using Redshift Query editor from the aws console connect our database by entering the credentials and run some queries to evaluate our tables. 
+
+7. After completing all the above tasks, remember to go back to create_cluster.ipynb and exceute the last code cell to clean the aws resources.
+
+### Test Queries and Results
+
+- Query 1 : SELECT COUNT(*) FROM songs
+
+`Result: 14896`
+
+- Query 2 : SELECT DISTINCT users.user_id FROM users JOIN songplays ON songplays.user_id = users.user_id WHERE songplays.location = 'Washington-Arlington-Alexandria, DC-VA-MD-WV'
+
+`Result:10`
