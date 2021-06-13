@@ -48,3 +48,15 @@ The objective is to build an ETL pipeline that extracts their data from S3, stag
 
 
 # Project Structure
+Files used on the project:
+
+1. **create_tables.py** - drops and creates tables.Use this file to reset your tables before you run your ETL scripts.
+2. **etl.py** - reads and processes files from song_data and log_data and loads them into your tables.
+3. **sql_queries.py**  - contains all your sql queries, and is imported whenever needed.
+4. **create_cluster.ipynb** - sets up the various cloud resources needed for the execution also cleans up all the resources used in the project. 
+5. **dwh.cfg** - contains the credentials to use cloud resources.
+6. **README.md** - documentation of the process, provides execution information on the project.
+
+### Steps to follow
+
+1.
