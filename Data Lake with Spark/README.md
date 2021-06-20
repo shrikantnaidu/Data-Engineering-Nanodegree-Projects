@@ -55,10 +55,10 @@ Files used on the project:
 
 
 1. Read the data from the S3 bucket.
+   
+   - Song data: s3://udacity-dend/song_data
 
-- Song data: s3://udacity-dend/song_data
-
-- Log data: s3://udacity-dend/log_data
+   - Log data: s3://udacity-dend/log_data
 
 2. Process data using spark.
 
