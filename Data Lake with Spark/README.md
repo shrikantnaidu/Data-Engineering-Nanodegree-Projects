@@ -54,28 +54,30 @@ Files used on the project:
 ### Process Overview
 
 
-1. Read the data from the S3 bucket
+1. Read the data from the S3 bucket.
 
-Song data: s3://udacity-dend/song_data
-Log data: s3://udacity-dend/log_data
-The script reads song_data and load_data from the bucket.
+- Song data: s3://udacity-dend/song_data
 
-2. Process data using spark
+- Log data: s3://udacity-dend/log_data
 
-Transforms the data in the S3 bucket to create five different tables listed below :
+2. Process data using spark.
 
-Fact Table:
-- songplays : records in log data associated with song plays i.e. records with page NextSong
+   The script reads song_data and load_data from S3 and transforms the data in the S3 bucket to create five different tables listed below :
 
-Dimension Tables:
-- users : users in the app Fields 
+   Fact Table:
+   
+    - songplays : records in log data associated with song plays i.e. records with page NextSong
 
-- songs : songs in music database Fields 
+   Dimension Tables:
+   
+    - users : users in the app Fields 
 
-- artists : artists in music database Fields 
+    - songs : songs in music database Fields 
 
-- time : timestamps of records in songplays broken down into specific units Fields 
+    - artists : artists in music database Fields 
 
-3. Load the data back to the S3 bucket
+    - time : timestamps of records in songplays broken down into specific units Fields 
 
-Writes the data in parquet format to different table directories in the S3 bucket.
+3. Load the data back to the S3 bucket.
+
+   Writes the data in parquet format to different table directories in the S3 bucket.
