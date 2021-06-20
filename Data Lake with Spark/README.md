@@ -70,13 +70,13 @@ Files used on the project:
 
    Dimension Tables:
    
-    - users : users in the app Fields 
+    - users : users in the app.
 
-    - songs : songs in music database Fields 
+    - songs : songs in music database.
 
-    - artists : artists in music database Fields 
+    - artists : artists in music database. 
 
-    - time : timestamps of records in songplays broken down into specific units Fields 
+    - time : timestamps of records in songplays broken down into specific units Fields.
 
 3. Load the data back to the S3 bucket.
 
