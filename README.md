@@ -1,5 +1,7 @@
 # Data-Engineering-Nanodegree-Projects
 
+![Udacity](https://github.com/shrikantnaidu/Deep-Learning-Nanodegree-Projects/blob/master/image/Udacity.png)
+
 This repository contains project related to Udacity's [Data Engineering Nanodegree program](https://www.udacity.com/course/deep-learning-nanodegree--nd101). It consists of the projects completed as a part of the Nanodegree Program. In PostgreSQL you will also define Fact and Dimension tables and insert data into your new tables.
 
 * [Data Modeling with Postgres](https://github.com/shrikantnaidu/Data-Engineering-Nanodegree-Projects/tree/main/Data%20Modeling%20with%20Postgres):  Modeling user activity data for a music streaming app called Sparkify.Creating a relational database and ETL pipeline designed to optimize queries for understanding what songs users are listening to. You’ll model your data in Apache Cassandra to allow for specific queries provided by the analytics team at Sparkify.
