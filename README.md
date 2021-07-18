@@ -14,4 +14,5 @@ This repository contains project related to Udacity's [Data Engineering Nanodegr
 
 * [Data Pipelines with Airflow](https://github.com/shrikantnaidu/Data-Engineering-Nanodegree-Projects/tree/main/Data%20Pipelines%20with%20Airflow): Creating and automating a set of data pipelines. You’ll configure and schedule data pipelines with Airflow and monitor and debug production pipelines.
 
-* [Data Engineering - Capstone](https://github.com/shrikantnaidu/Data-Engineering-Nanodegree-Projects/tree/main/Data%20Engineering%20-%20Capstone): Enrichment of existing Data and creating an ETL Pipeline for it.
+* [Data Engineering - Capstone](https://github.com/shrikantnaidu/Data-Engineering-Nanodegree-Projects/tree/main/Data%20Engineering%20-%20Capstone): Enrichment of 
+I94 Immigration Data and building an ETL Pipeline for it.
