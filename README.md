@@ -1,6 +1,6 @@
 # Data-Engineering-Nanodegree-Projects
 
-![Udacity](https://github.com/shrikantnaidu/Deep-Learning-Nanodegree-Projects/blob/master/image/Udacity.png)
+![Udacity](https://github.com/shrikantnaidu/Data-Engineering-Nanodegree-Projects/blob/master/Udacity.png)
 
 This repository contains project related to Udacity's [Data Engineering Nanodegree program](https://www.udacity.com/course/data-engineer-nanodegree--nd027). It consists of the projects completed as a part of the Nanodegree Program. 
 
